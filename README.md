@@ -75,14 +75,14 @@ PORT=3002
 AI_PROVIDER=openai
 
 # Konfigurasi OpenAI
-OPENAI_API_KEY=sk-proj-your-actual-openai-api-key-here
+OPENAI_API_KEY=sk-proj-your-actual-openai-api-key
 
 # Konfigurasi OpenRouter  
 OPENROUTER_API_KEY=sk-or-your-actual-openrouter-api-key
 OPENROUTER_MODEL_NAME=anthropic/claude-3-haiku
 
 # Konfigurasi Google Gemini
-GEMINI_API_KEY=your-actual-gemini-api-key-here
+GEMINI_API_KEY=your-actual-gemini-api-key
 
 # System Prompt (akan dibuat secara automatik di config/system-prompt.txt)
 SYSTEM_PROMPT=Anda adalah pembantu AI WhatsApp yang mesra dan membantu.
@@ -178,6 +178,10 @@ socket.on('message-received', (message) => {});      // Mesej masuk
 socket.on('ai-response', (response) => {});          // Respons AI dihantar
 socket.on('error', (error) => {});                   // Event ralat
 ```
+
+## 🙏 Kredit
+
+Projek ini adalah fork dan penambahbaikan dari [wa-aichatbot](https://github.com/paijoe29/wa-aichatbot) oleh [@paijoe29](https://github.com/paijoe29). Terima kasih atas kerja keras dan sumbangan asal!
 
 ## 📁 Struktur Projek
 
